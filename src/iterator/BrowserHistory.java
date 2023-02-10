@@ -20,7 +20,7 @@ public class BrowserHistory<T> {
         return this.urls.remove(lastUrlIndex);
     }
 
-    public Iterator createIterator () {
+    public Iterator createIterator() {
         return new ListIterator(this);
     }
 

@@ -7,8 +7,7 @@ import java.util.List;
 
 public class Chart {
 
-    private List<Product> productList;
-
+    private final List<Product> productList;
     private Calculator calculator;
 
     public Chart(Calculator calculator) {
