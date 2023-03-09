@@ -1,6 +1,4 @@
 <h1>Concurrency</h1>
-<hr>
-
 <h2>Race condition</h2>
 <p>
 when many threads try to modify a resource at the same time
@@ -34,4 +32,3 @@ Each thread deals with his own resource and combine to the main
 so it ensures one thread to modify it at a time
 </li>
 </ul>
-
