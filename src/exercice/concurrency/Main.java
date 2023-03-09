@@ -1,20 +1,22 @@
 package exercice.concurrency;
 
+import exercice.concurrency.racecondition.DownloadTask;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void mainx(String[] args) {
 
-        Thread thread = new Thread(new DownloadTask());
-        thread.start();
-
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.getStackTrace();
-        }
-
-        thread.interrupt();
-        System.out.println("File is ready for scanning.");
+//        Thread thread = new Thread(new DownloadTask());
+//        thread.start();
+//
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.getStackTrace();
+//        }
+//
+//        thread.interrupt();
+//        System.out.println("File is ready for scanning.");
     }
 
     public static void getRuntimeInfo() {

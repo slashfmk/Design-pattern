@@ -2,9 +2,7 @@
 <hr/>
 
 <p>This repository contains my design pattern exercises, this is not a project</p>
-<p>
-I love having fun with code since it's my favorite subject
-</p>
+<p>I love having fun with code since it's my favorite subject</p>
 
 <h2>Design principles: </h2>
 
