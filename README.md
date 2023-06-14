@@ -21,4 +21,5 @@
 <li>Iterator pattern</li>
 <li>Observer pattern</li>
 <li>Command pattern</li>
+<li>Composite pattern</li>
 </ul>
