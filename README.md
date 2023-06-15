@@ -23,4 +23,5 @@
 <li>Command pattern</li>
 <li>Composite pattern</li>
 <li>Adapter pattern</li>
+<li>Decorator pattern</li>
 </ul>

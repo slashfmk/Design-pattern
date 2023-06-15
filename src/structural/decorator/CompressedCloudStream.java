@@ -1,14 +1,21 @@
 package structural.decorator;
 
-public class CompressedStream implements  Stream {
-    private Stream stream;
+public class CompressedCloudStream implements Stream {
+
+    private final Stream stream;
+
+    public CompressedCloudStream(Stream stream) {
+        this.stream = stream;
+    }
 
     @Override
     public void write(String data) {
-        this.stream.write(data);
+        var compressed = this.compress(data);
+        this.stream.write(compressed);
     }
 
-    private void compress(String data) {
-        return String.
+    private String compress (String data) {
+        return data.substring(2, 5);
     }
+
 }

@@ -1,2 +1,6 @@
-package structural.decorator;public class Stream {
+package structural.decorator;
+
+public interface Stream {
+
+    public void write(String data);
 }
