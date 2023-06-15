@@ -22,4 +22,5 @@
 <li>Observer pattern</li>
 <li>Command pattern</li>
 <li>Composite pattern</li>
+<li>Adapter pattern</li>
 </ul>
