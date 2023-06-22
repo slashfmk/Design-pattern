@@ -25,4 +25,5 @@
 <li>Adapter pattern</li>
 <li>Decorator pattern</li>
 <li>Bridge pattern</li>
+<li>Proxy pattern</li>
 </ul>
