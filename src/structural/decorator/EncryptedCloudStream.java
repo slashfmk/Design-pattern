@@ -2,7 +2,7 @@ package structural.decorator;
 
 public class EncryptedCloudStream implements Stream {
 
-    private Stream stream;
+    private final Stream stream;
 
     public EncryptedCloudStream(Stream stream) {
         this.stream = stream;

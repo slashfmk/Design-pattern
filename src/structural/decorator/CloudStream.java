@@ -7,6 +7,6 @@ public class CloudStream implements Stream {
     @Override
     public void write(String data) {
         this.data = data;
-        System.out.println("Storing stream ... " + data);
+        System.out.println("Storing stream " + data);
     }
 }
