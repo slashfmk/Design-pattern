@@ -2,8 +2,8 @@ package Behavioral.command.fx;
 
 public class Button {
 
-    private String label;
-    private Command command;
+    private final String label;
+    private final Command command;
 
 
     public Button (String label, Command command) {

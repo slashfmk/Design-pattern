@@ -20,7 +20,7 @@ public class ExecPlayground {
 
             try {
                 var result = future.get();
-                System.out.println(result);;
+                System.out.println(result);
             } catch (InterruptedException | ExecutionException e) {
                 throw new RuntimeException(e);
             }

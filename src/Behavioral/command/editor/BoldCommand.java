@@ -3,8 +3,8 @@ package Behavioral.command.editor;
 public class BoldCommand implements UndoableCommand {
 
     private String prevContent;
-    private History history;
-    private HtmlDocument document;
+    private final History history;
+    private final HtmlDocument document;
 
     public BoldCommand(HtmlDocument document, History history) {
         this.history = history;

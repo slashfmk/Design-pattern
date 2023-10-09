@@ -2,8 +2,8 @@ package Behavioral.observer;
 
 public interface Subject {
 
-    public void addObserver(Observer observer);
-    public void removeObserver(Observer observer);
-    public void publish();
+    void addObserver(Observer observer);
+    void removeObserver(Observer observer);
+    void publish();
 
 }

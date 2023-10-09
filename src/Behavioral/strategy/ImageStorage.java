@@ -2,7 +2,7 @@ package Behavioral.strategy;
 
 public class ImageStorage {
 
-    private String  image;
+    private final String  image;
 
     public ImageStorage (String image) {
         this.image = image;

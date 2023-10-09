@@ -44,7 +44,7 @@ public class Chart {
         for (var product : this.productList) {
             System.out.println(product.getName() + " | " + product.getPrice());
         }
-        System.out.println("");
+        System.out.println();
     }
 
     public void setCalculator(Calculator calculator) {

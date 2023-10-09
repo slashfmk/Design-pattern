@@ -2,7 +2,7 @@ package Behavioral.state;
 
 public interface Tool {
 
-    public void mouseDown();
+    void mouseDown();
 
-    public void mouseUp();
+    void mouseUp();
 }

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BrowserHistory<T> {
 
-    private List<T> urls;
+    private final List<T> urls;
 
     public BrowserHistory() {
         this.urls = new ArrayList<>();
@@ -27,7 +27,7 @@ public class BrowserHistory<T> {
 
     private class ListIterator implements Iterator<T> {
 
-        private BrowserHistory history;
+        private final BrowserHistory history;
         private int index;
 
         public ListIterator(BrowserHistory history) {

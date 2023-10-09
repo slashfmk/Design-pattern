@@ -2,7 +2,7 @@ package structural.proxy;
 
 public interface Ebook {
 
-    public void show();
+    void show();
 
-    public String getFilename();
+    String getFilename();
 }

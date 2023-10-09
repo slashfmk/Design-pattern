@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class SecureEbookProxy implements Ebook {
 
-    private String filename;
-    private Scanner scanner;
+    private final String filename;
+    private final Scanner scanner;
     private RealEbook realEbook;
 
 

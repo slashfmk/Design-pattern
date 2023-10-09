@@ -4,7 +4,7 @@ import Behavioral.command.fx.Command;
 
 public class AddCustomerCommand implements Command {
 
-    private CustomerService customerService;
+    private final CustomerService customerService;
     private String name;
 
     public AddCustomerCommand (CustomerService service) {

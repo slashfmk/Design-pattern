@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Library {
 
-    private Map<String, Ebook> books;
+    private final Map<String, Ebook> books;
 
     public Library() {
         this.books = new HashMap<>();

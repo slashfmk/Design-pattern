@@ -2,7 +2,7 @@ package structural.proxy;
 
 public class ProxyEbook implements Ebook {
 
-    private String filename;
+    private final String filename;
     private RealEbook realEbook;
 
     public ProxyEbook(String filename) {

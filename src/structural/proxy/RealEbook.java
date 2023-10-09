@@ -2,7 +2,7 @@ package structural.proxy;
 
 public class RealEbook implements Ebook  {
 
-    private String filename;
+    private final String filename;
 
     public RealEbook(String filename) {
         this.filename = filename;
