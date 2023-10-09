@@ -24,6 +24,11 @@ public class Sugar implements Decorator {
     }
 
     @Override
+    public String getDescription() {
+        return description;
+    }
+
+    @Override
     public double getPrice() {
         return this.price;
     }
